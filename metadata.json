@@ -1,0 +1,6 @@
+{
+  "name": "Corvus ERP",
+  "description": "An enterprise-grade ERP AI command center with a powerful AI Copilot, interactive analytics, real-time inventory management, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

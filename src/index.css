@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom background and card colors from the strict palette */
+  --color-bg-primary: #0A1020;
+  --color-bg-secondary: #111827;
+  --color-card-bg: #141C2F;
+  --color-sidebar-bg: #0D1325;
+  --color-border-color: #1F2A44;
+  --color-primary-blue: #4F6FFF;
+  --color-primary-hover: #5B7DFF;
+  --color-purple: #6C63FF;
+  --color-green: #2DD4BF;
+  --color-yellow: #FBBF24;
+  --color-orange: #F59E0B;
+  --color-red: #EF4444;
+  --color-text-white: #F8FAFC;
+  --color-text-gray: #94A3B8;
+  --color-text-muted: #64748B;
+}
+
+/* Base styling overrides */
+body {
+  background-color: #0A1020;
+  color: #F8FAFC;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for a premium modern glassmorphism feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2A44;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4F6FFF;
+}
